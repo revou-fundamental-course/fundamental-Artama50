@@ -1,1 +1,104 @@
 /* ini css */
+
+main{
+    box-sizing: border-box;
+    width: 1366px;
+}
+
+.left-spacing{
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.nav-content{
+    display: inline-flex;
+}
+
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+
+    /* for image icon */
+    background-image: url(../assets/Kendo\ -\ Line\ Art.png);
+    background-size: cover;
+    border-radius: 50%
+}
+
+.banner-container{
+    height: 578px;
+    width: 1366px;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+.profile-icon{
+    height: 150px;
+    width: 150px;
+    border: 1px solid;
+
+     /* for image icon */
+     background-size: cover;
+     border-radius: 50%;
+}
+
+.profile-1 {
+    background-image: url(../assets/Prince\ Carl\ logo.png);
+}
+
+.profile-2 {
+    background-image: url(../assets/Yamada\ Sensei\ logo.png);
+}
+
+.profile-3 {
+    background-image: url(../assets/Atsuko\ Logo.png);
+}
+.profile-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item {
+    text-align: center;
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+nav>a{
+    padding-left: 32px;
+    padding-right: 32px;
+    border: solid;
+}
+
+.divider {
+flex: 2;
+}
+
+.profile-container{
+    height: auto;
+    width: 1366px;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+
+.credit-container{
+    display: flex;
+   justify-content: end;
+   height: auto;
+   width: 1366px;
+   padding-inline-end: 50px;
+   box-sizing: border-box;
+   border: 1px solid;
+}
+
+.pesan-content{
+    vertical-align: text-top;
+}

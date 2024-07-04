@@ -1,9 +1,118 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="CSS/style.css">
     </head>
     <body>
-        
+        <main>
+        <!-- Ini Header Nav -->
+        <header class="nav-container">
+            <div class="logo-icon">
+
+            </div>
+            <nav class="nav-content">
+                <a href="#home">Home</a>
+                <a href="#our-profile">Our Profile</a>
+                <a href="#portofolio">Portofolio</a>
+                <a href="#message-us">Message Us</a>
+            </nav>
+        </header>
+
+        <!-- Ini Home Content -->
+            <section id="home" class="banner-container">
+                <header>
+                    <h1 class="left-spacing"> Hi User, Welcome to Website</h1>
+                    <article>
+                        <p class="left-spacing">Ini adalah website portofolio saya</p>
+
+                        <div> </div>
+                    </article>
+                </header>
+            </section>
+
+        <!-- Ini Our Profile -->
+        <section id="our-profile" class="profile-container">
+            <header>
+                <h1>Our Profile</h1>
+            </header>
+
+                <article class="profile-content">
+                    <div class="profile-item">
+                        <div class="profile-icon profile-1"> </div>
+                        <p>Profile 1</p>
+                    </div>    
+                                       
+                    <div class="profile-item">
+                        <div class="profile-icon profile-2"> </div>
+                        <p>Profile 2</p>
+                    </div>    
+                                                  
+                    <div class="profile-item">
+                        <div class="profile-icon profile-3"> </div>
+                        <p>Profile 3</p>
+                    </div>     
+                    
+                    <div class="divider"></div>
+                </article>           
+        </section>
+
+        <!-- Ini Portofolio -->
+        <section id="portofolio">
+            <header>
+            </header>
+        </section>
+
+        <!-- Ini Message Us -->
+        <section id="message-us">
+            <header>
+                <h1 class="left-spacing">Message Us</h1>
+                <form action="" method="post">
+                    <table>
+                   <tr>
+                        <td width="120">Nama</td>
+                        <td><input type="text" placeholder="Nama"></td>                       
+                   </tr>
+                    
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td><input type="date" placeholder="Tanggal"></td>
+                    </tr>
+
+                    <tr>
+                        <td>Jenis Kelamin</td>           
+                            <td>
+                            <input type="radio" name="Jenis-kelamin" placeholder="Laki-laki">Laki-laki
+                            <input type="radio" name="Jenis-kelamin" placeholder="Perempuan">Perempuan
+                            </td>
+                        </tr>          
+
+                    <tr>
+                        <td class="pesan-content">Pesan</td>
+                        <td>
+                            <textarea rows="5" cols="40" placeholder="Pesan">
+                            </textarea>
+                    </td>   
+
+                    <tr>
+                        <td><input type="submit" value="simpan">
+                        </td>
+                    </tr>
+                    </tr>
+                </table>
+                </form>
+            </header>
+        </section>
+
+         <!-- Ini Credit -->
+        <section>
+            <header>
+                <article class="credit-container">
+                  <div>
+                    <p>Created by Dio Ardian Pratama</p>
+                  </div> 
+                </article>
+            </header>
+        </section>
+        </main>
     </body>
 </html>
